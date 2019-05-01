@@ -1,14 +1,14 @@
-import Home from "./../views/Home.vue";
-export default[
+import Home from "@/views/home/Home.vue";
+export default [
   {
     path: "/",
     name: "home",
     component: Home
   },
   {
-    path: "/about",
-    name: "about",
+    path: "/city",
+    name: "city",
     component: () =>
-      import(/* webpackChunkName: "about" */ "./../views/About.vue")
+      import(/* webpackChunkName: "about" */ "@/views/city/City.vue")
   }
 ];
