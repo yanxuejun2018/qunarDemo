@@ -9,8 +9,8 @@ import "vant/lib/index.css";
 import VueAwesomeSwiper from "vue-awesome-swiper";
 import "swiper/dist/css/swiper.css";
 Vue.use(VueAwesomeSwiper);
-import { Button } from "vant";
-Vue.use(Button);
+import { Icon } from 'vant';
+ Vue.use(Icon);
 Vue.config.productionTip = false;
 
 new Vue({

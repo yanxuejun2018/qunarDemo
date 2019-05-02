@@ -119,7 +119,7 @@ export default {
     right: 0;
     bottom: 0.48rem;
     box-sizing: border-box;
-    padding: 0.2rem;
+    padding: 0.3rem;
     img {
       width: 78%;
       display: block;
